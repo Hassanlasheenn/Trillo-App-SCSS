@@ -11,7 +11,7 @@
     font-size: 1.4rem;
     height: 7rem;
     background-color: #fff;
-    border-bottom:  var(--color-grey-light-2);
+    border-bottom:  1px solid var(--color-grey-light-2);
 
     display: flex;
     justify-content: space-between;
@@ -37,8 +37,6 @@
 // flex-item
 .hotel-view {
     background-color: #fff;
-    // testing purposes
-    background-color: orangered;
     height: 80rem;
 
     flex: 1;    // 1 is flex-grow and that occupy the remaining width of the container
